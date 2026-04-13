@@ -1,0 +1,28 @@
+{
+  "id": "y6g_star_of_infinit", # For the convenience of troubleshooters, include your name and the mod name, not just an acronym.
+  "name": "Star of Infinit", # Displayed to the player
+  "author": "Glauber-Y6G",
+  "utility": false,
+  "version": { "major": '0', "minor": '1', "patch": '0' },
+  "description": "A Starsector Mod.",
+  "gameVersion": "0.98a-RC8",
+  "jars": [ "jars/StarOfInfinit.jar" ],
+  "modPlugin": "Y6G.starofinfinit.StarOfInfinitPlugin",
+  "dependencies": [
+   # {
+   #     "id": "lw_lazylib",
+   #     "name": "LazyLib", # Optional (recommended)
+   #     #"version": "2.7b" # Optional
+   # },
+   # {
+   #     "id": "MagicLib",
+   #     "name": "MagicLib", # Optional (recommended)
+   #     #"version": "0.34" # Optional
+   # },
+   # {
+   #     "id": "shaderLib",
+   #     "name": "GraphicsLib", # Optional (recommended)
+   #     #"version": "1.5.1" # Optional
+   # }
+  ],
+}

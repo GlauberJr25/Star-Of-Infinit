@@ -1,0 +1,107 @@
+{
+  "hullName": "Bredher Light Support",
+  "hullId": "infinit_bredher",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/bredher.png",
+  "style": "MIDLINE",
+  "height": 54,
+  "width": 110,
+  "center": [55, 27],
+  "collisionRadius": 58.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 58.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [15, 22.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [15, -22.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-8, 38.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-8, -38.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23, 24],
+      "length": 45,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-23, -24],
+      "length": 45,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-23, 11.5],
+      "length": 28.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-23, -11.5],
+      "length": 28.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-25, -0],
+      "length": 28.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -24.5, -29.5,
+    -15, -42.5,
+    10.5, -42.5,
+    25, -31.5,
+    25, 31.5,
+    10.5, 42.5,
+    -15, 42.5,
+    -24.5, 29.5
+  ]
+}

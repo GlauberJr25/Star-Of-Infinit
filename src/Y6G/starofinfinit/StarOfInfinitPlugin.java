@@ -7,6 +7,8 @@ public class StarOfInfinitPlugin extends BaseModPlugin {
 
     // call order: onNewGame -> onNewGameAfterProcGen -> onNewGameAfterEconomyLoad -> onEnabled -> onNewGameAfterTimePass -> onGameLoad
 
+    // TODO: fazer codigo de todas as naves
+
     @Override
     public void onNewGame() {
         Global.getLogger(this.getClass()).info("Hooray, Star Of Infinit jar is loaded!");

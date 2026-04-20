@@ -1,0 +1,17 @@
+{
+  "baseHullId": "apogee",
+  "baseValueMult": 1,
+  "descriptionId": "base_hull",
+  "fighterBays": 0,
+  "fleetPoints": 14,
+  "fpMod": 0,
+  "hullDesignation": "Cruiser",
+  "hullName": "Strazyer",
+  "manufacturer": "",
+  "ordnancePoints": 140,
+  "restoreToBaseHull": false,
+  "skinHullId": "infinit_strazyer",
+  "spriteName": "graphics/ships/strazyer.png",
+  "systemId": "flarelauncher_active",
+  "tech": ""
+}

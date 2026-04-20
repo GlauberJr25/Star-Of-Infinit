@@ -1,0 +1,70 @@
+{
+  "hullName": "Medal",
+  "hullId": "infinit_medal",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/medal.png",
+  "style": "MIDLINE",
+  "height": 74,
+  "width": 76,
+  "center": [38, 39],
+  "collisionRadius": 53,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 52.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2, -24]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-34, 12.5],
+      "length": 28.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-34, -12.5],
+      "length": 28.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -26.5, -2.5,
+    -34, -6.5,
+    -34, -17.5,
+    -23, -23.5,
+    -7.5, -35.5,
+    7.5, -35.5,
+    26.5, -29.5,
+    29, -9,
+    29, 9,
+    26.5, 29.5,
+    7.5, 35.5,
+    -7.5, 35.5,
+    -23, 23.5,
+    -34, 17.5,
+    -34, 6.5,
+    -26.5, 2.5
+  ]
+}

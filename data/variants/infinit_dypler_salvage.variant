@@ -1,0 +1,18 @@
+{
+  "variantId": "infinit_dypler_salvage",
+  "hullId": "infinit_dypler",
+  "displayName": "Salvage-Gantry",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliary_fuel_tanks",
+    "blast_doors",
+    "ecm"
+  ],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,62 @@
+{
+  "hullName": "Dypler",
+  "hullId": "infinit_dypler",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/dypler.png",
+  "style": "MIDLINE",
+  "height": 96,
+  "width": 146,
+  "center": [73, 48],
+  "collisionRadius": 87,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 86.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "repair_gantry"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [-43, 14.5],
+      "length": 42.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-43, -14.5],
+      "length": 42.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-43, 4.5],
+      "length": 35,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-43, -4.5],
+      "length": 35,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -43, -24,
+    -22, -66,
+    7.5, -73.5,
+    41, -40,
+    41, 40,
+    7.5, 73.5,
+    -22, 66,
+    -43, 24
+  ]
+}
